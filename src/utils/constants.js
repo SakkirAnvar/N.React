@@ -4,5 +4,8 @@ export const CDN_URL =
 export const LOGO_URL =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRmaaj1dqXMUKLbNAjVKYq6OhtCmAuWEKIjg&s";
 
+export const RESLIT_URL =
+  "https://proxy.corsfix.com/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9352403&lng=77.624532&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+
 export const ITEM_URL =
   "https://proxy.corsfix.com/?https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9352403&lng=77.624532&restaurantId=";
