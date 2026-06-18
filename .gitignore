@@ -7,3 +7,5 @@ build/
 
 # Parcel cache
 .parcel-cache/
+
+/coverage
