@@ -13,7 +13,6 @@ const Body = () => {
   const { setUserName, loggedUser } = useContext(UserContext);
 
   const onlineStatus = useOnlineStatus();
-  console.log(restaurantList);
 
   const PromotedRestaurant = withPromotedLabel(RestaurantCard);
 
@@ -27,14 +26,12 @@ const Body = () => {
     );
 
     const json = await data.json();
-    setRestaurantList(
+    const restaurants =
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants,
-    );
-    setFilteredList(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants,
-    );
+        ?.restaurants;
+
+    setRestaurantList(restaurants);
+    setFilteredList(restaurants);
   };
 
   if (onlineStatus === false)
@@ -51,6 +48,7 @@ const Body = () => {
       <div className="filter-container px-3 mx-3 flex content-between items-center">
         <div className="search">
           <input
+            data-testid="searchInput"
             type="text"
             className="search-input p-3 m-3 border border-gray-500 rounded-lg"
             value={searchText}
@@ -77,7 +75,7 @@ const Body = () => {
             className="filter_btn p-3 m-3 bg-green-400 hover:bg-green-600 rounded-lg cursor-pointer text-white"
             onClick={() => {
               const filteredList = restaurantList.filter(
-                (res) => res.info.avgRating > 4.5,
+                (res) => res.info.avgRating > 4.6,               
               );
               setRestaurantList(filteredList);
             }}
@@ -99,7 +97,7 @@ const Body = () => {
         </div>
       </div>
 
-      <div className="restaurant-list flex flex-wrap">
+      <div data-testid="resCard" className="restaurant-list flex flex-wrap">
         {filteredList.map((restaurant) => (
           <Link
             key={restaurant.info.id}

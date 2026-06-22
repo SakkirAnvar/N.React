@@ -1,0 +1,120 @@
+{
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    "info": {
+        "id": "776753",
+        "name": "Blue Tokai Coffee Roasters",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/24/fa517ecb-c601-4d39-9b50-abbb4711c06f_776753.JPG",
+        "locality": "KHB Colony",
+        "areaName": "KHB Colony",
+        "costForTwo": "₹600 for two",
+        "cuisines": [
+            "Cafe",
+            "Coffee",
+            "Beverages"
+        ],
+        "avgRating": 4.7,
+        "parentId": "2682",
+        "avgRatingString": "4.7",
+        "totalRatingsString": "514",
+        "sla": {
+            "deliveryTime": 17,
+            "lastMileTravel": 0.9,
+            "serviceability": "SERVICEABLE",
+            "slaString": "15-20 mins",
+            "lastMileTravelString": "0.9 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2026-06-19 23:00:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "android/static-assets/icons/big_rx.png",
+                    "description": "bolt!"
+                },
+                {
+                    "imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
+                    "description": "Meals with high protein, low calorie and no added sugar"
+                },
+                {
+                    "imageId": "newg.png",
+                    "description": "Premium gourmet restaurant offering an elevated, high-quality food experience."
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "bolt!",
+                                "imageId": "android/static-assets/icons/big_rx.png"
+                            }
+                        },
+                        {
+                            "attributes": {
+                                "description": "Meals with high protein, low calorie and no added sugar",
+                                "imageId": "Health%20Hub/RX%20BADGE/BADGE2.png",
+                                "theme": ""
+                            }
+                        },
+                        {
+                            "attributes": {
+                                "description": "Premium gourmet restaurant offering an elevated, high-quality food experience.",
+                                "imageId": "newg.png",
+                                "theme": ""
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "₹125 OFF",
+            "subHeader": "ABOVE ₹699",
+            "discountTag": "FLAT DEAL"
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "4.6",
+                "ratingCount": "200"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-a5792e32-9b31-459d-a6c2-b54152671395"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/bangalore/blue-tokai-coffee-roasters-khb-colony-rest776753",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}
